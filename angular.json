@@ -23,7 +23,7 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": [ "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-app1"
+    }
+  },
+  "defaultProject": "my-app1",
+  "cli": {
+    "analytics": false
+  }
 }
